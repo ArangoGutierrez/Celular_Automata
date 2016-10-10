@@ -1,0 +1,5 @@
+max=20
+for ((i=1; i <= $max; ++i ))
+do
+    time ./CelAut_v3.0 $i &
+done
